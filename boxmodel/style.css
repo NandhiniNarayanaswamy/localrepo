@@ -1,0 +1,47 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ .box-model{
+   /* border-left: 5px dotted black;*/
+    background:linear-gradient(to bottom, red,black) violet;
+    width:100px;
+    height:100px;
+    padding: 10px;
+    margin: 20px;
+ }
+ .positions{
+   border:1px solid red;
+   width:900px;
+   height:500px;
+   margin: 0 auto; 
+
+ }
+ .box{
+   border:1px solid black;
+   width:100px;
+   height:100px
+ }
+ .absolute{
+   background-color: brown;
+   position: absolute;
+   top:10px;/*it goes top*/
+   left:10px;/*and then it brigns to left*/
+ }
+ .relative{
+   background-color:blue;
+   position:relative;/*it referece as a parent class*/
+   left:10px;
+ }
+ .fixed{
+   background-color: palevioletred;
+   position: fixed;/*it reference as a screen, it came out of a parent class*/
+   top:0;
+   right:0;
+}
+ .sticky{
+   background-color: peru;
+   position: sticky;
+   top: 0;
+   bottom: 10px;
+ }
